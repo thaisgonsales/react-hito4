@@ -1,13 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+/*import Home from "./components/Home";*/
+/*import Register from "./components/Register"*/
+import Login from "./components/Login"
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      {/* <Register /> */}
+      <Login />
       <Footer />
     </div>
   );
